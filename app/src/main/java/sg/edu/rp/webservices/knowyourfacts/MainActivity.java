@@ -100,9 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
-
+        
         if(item.getItemId()==R.id.next){
             int max = vPager.getChildCount();
             if (vPager.getCurrentItem() < max-1){
